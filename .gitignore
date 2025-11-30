@@ -10,4 +10,4 @@ Training/*.gz
 *.zip
 *.npz
 *.gz
-
+!backend_byclass/*.npz
