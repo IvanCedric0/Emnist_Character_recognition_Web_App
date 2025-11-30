@@ -218,7 +218,7 @@ export default function Page() {
         {/* Header */}
         <header className="mb-8 text-center">
           <h1 className="text-3xl sm:text-4xl font-semibold tracking-tight">
-            Handwritten Character Recognition
+            I&L Handwritten Character Recognition
           </h1>
           <p className="mt-3 text-sm sm:text-base text-slate-300 max-w-xl mx-auto">
             Use the EMNIST-trained neural network to recognize handwritten
@@ -458,7 +458,7 @@ export default function Page() {
 
         {/* Footer */}
         <footer className="mt-6 text-center text-xs text-slate-500">
-          Built with a custom neural network trained on EMNIST ByClass
+          Built with a custom neural network trained on EMNIST ByClass by Ivan and Lenny
           (digits + uppercase + lowercase letters).
         </footer>
       </div>
