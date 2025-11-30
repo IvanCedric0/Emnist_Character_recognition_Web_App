@@ -82,8 +82,7 @@ def predict():
 
     img_array = np.array(img).astype(np.float32)
 
-    # If EMNIST images are white-on-black and your uploads are black-on-white,
-    # uncomment this inversion line:
+    # Invert image 
     # img_array = 255 - img_array
 
     pred_idx = predict_image(img_array, params)
