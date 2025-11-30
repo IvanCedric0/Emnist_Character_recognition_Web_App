@@ -45,37 +45,29 @@ Copy code
 
 Install dependencies:
 
-```bash
 cd backend_byclass
 pip install flask flask-cors pillow numpy
 Run the backend:
 
-bash
-Copy code
 python app.py
 The server starts at:
 
-cpp
-Copy code
 http://127.0.0.1:5000
-2️⃣ Frontend (Next.js + Typescript)
+
+### 2️⃣ Frontend (Next.js + Typescript)
 Install dependencies:
 
-bash
-Copy code
 cd frontend
 npm install
 Start development server:
 
-bash
-Copy code
 npm run dev
 Runs at:
 
-arduino
-Copy code
 http://localhost:3000
-📝 Model
+
+## 📝 Model
+
 Dataset: EMNIST ByClass (214k images)
 
 Input: 28×28 grayscale images (flattened to 784)
@@ -88,11 +80,11 @@ Training: Custom ANN (NumPy only)
 
 Models are saved as:
 
-Copy code
 emnist_byclass_ANN_128hs_subset.npz
 Loaded automatically by Flask.
 
-🎨 Features
+## 🎨 Features
+
 ✔️ Upload images (PNG/JPG)
 
 ✔️ Draw characters directly on canvas
@@ -105,16 +97,9 @@ Loaded automatically by Flask.
 
 ✔️ Fully offline model (no external API)
 
-💡 Future Improvements
+## 💡 Future Improvements
+
 Replace ANN with CNN (PyTorch) for 95%+ accuracy
 
-Deploy backend on Render / Railway
-
-Deploy frontend on Vercel
-
-Add confidence scores + heatmaps
-
-Add dataset visualization
-
-📜 License
+## 📜 License
 MIT License. Free to use, modify, and learn from.
