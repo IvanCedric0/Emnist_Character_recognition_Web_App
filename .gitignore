@@ -1,0 +1,13 @@
+node_modules/
+.next/
+__pycache__/
+*.pyc
+Training/*.ubyte
+Training/*.zip
+Training/*.npz
+Training/*.gz
+*.ubyte
+*.zip
+*.npz
+*.gz
+
