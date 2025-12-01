@@ -55,7 +55,7 @@ def decode_emnist_byclass(idx: int) -> str:
 
 # ---------- LOAD MODEL ----------
 
-model = np.load("emnist_byclass_ANN_128hs_subset.npz")
+model = np.load("emnist_byclass_ANN_256hs_subset.npz")
 w1 = model["w1"]
 b1 = model["b1"]
 w2 = model["w2"]

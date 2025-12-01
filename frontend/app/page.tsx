@@ -41,7 +41,7 @@ export default function Page() {
     ctx.fillStyle = "#000000"; // 
     ctx.fillRect(0, 0, canvas.width, canvas.height);
     ctx.strokeStyle = "#ffffff"; 
-    ctx.lineWidth = 18;
+    ctx.lineWidth = 28;
     ctx.lineCap = "round";
   }, []);
 
@@ -133,7 +133,7 @@ export default function Page() {
     ctx.fillStyle = "#000000";
     ctx.fillRect(0, 0, canvas.width, canvas.height);
     ctx.strokeStyle = "#ffffff";
-    ctx.lineWidth = 18;
+    ctx.lineWidth = 28;
     ctx.lineCap = "round";
     setHasDrawing(false);
     setPrediction(null);
